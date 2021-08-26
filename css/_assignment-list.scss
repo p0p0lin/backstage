@@ -1,0 +1,27 @@
+.assignment-list{
+    max-width: 320px;;
+
+    select{
+        border:0px;
+        font-weight: 700;
+        width:69px;
+        cursor:pointer;
+    }
+
+    .group-hover:hover{
+        background-color: #EDF4EE;        
+    }
+
+    .list-group-item.active{
+        color:black;
+    }
+
+
+    .small-size{
+        font-size: 12px;
+    }
+
+    .light-color{
+        color:#0000009A;
+    }
+}

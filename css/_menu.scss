@@ -1,0 +1,71 @@
+.menu{
+    background-color:#EDF4EE;
+    width:296px;
+
+    .main-logo{
+        width:151px;
+        height:40px;
+        margin-bottom:24px;        
+    }
+
+    .menu-word{
+        color:#121212;
+        font-size:16px;
+        padding-left:19px;
+        font-family:$font-family-base;
+        font-weight:700;
+    }
+
+    li{
+        margin-bottom: 12px;
+        padding-top: 5px;
+        padding-bottom:5px; 
+        box-sizing:border-box;
+        border-left:4px solid rgba(255,255,255, 0);     
+    }
+
+    li:hover{
+        border-left:4px solid #2A8356;
+        color:#2A8356;
+        a{
+            color:#2A8356;
+        }
+    }
+
+    li:nth-child(3){
+        border-left:4px solid #2A8356;
+        color:#2A8356;
+        a{
+            color:#2A8356;
+        }
+    }
+
+}
+
+.author-pic{
+background-image: url(../image/andychen.jpeg);
+background-size: cover;
+background-repeat: no-repeat;
+width:40px;
+height:40px;
+border-radius: 50%;
+}
+
+.author{
+    margin-right: 60px;
+
+    img{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
+
+    span:nth-child(1){
+        font-weight: 700;
+    }
+
+    span:nth-child(2){
+        font-size: 14px;
+        color:#0000009A;
+    }
+}

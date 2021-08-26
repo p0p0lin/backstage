@@ -1,0 +1,128 @@
+.assignment-content{
+
+.comment-num{
+    padding-bottom: 6px;
+}
+
+.user-top{
+    height:62px;
+    background-color: #EDF4EE;
+    border-bottom:1.4px solid #CDDDCD;
+    padding-top: 12px;
+    padding-bottom: 12px;
+
+    h6{
+        font-weight: 700;
+    }
+}
+
+.attach-button{
+    background-color: #EDF4EE;
+    border:1px solid #CDDDCD;
+    padding: 10px;
+    max-width: 176px;
+    cursor:pointer;
+    border-radius:2px;
+}
+
+.attach-word{
+    font-weight: 700;
+}
+
+.user-pic1{
+    background-image: url('../image/emilywang.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+}
+
+.code{
+    color:#2A8356;
+    background-color: #EDF4EE;
+}
+
+.light-color{
+    color:#0000009A;
+}
+
+.user-name{
+    font-weight: 700;
+}
+
+.user-content{
+    border-bottom:2px solid #CDDDCD;
+}
+
+.user-container{
+    border:1.4px solid #CDDDCD;
+    border-radius:2px;
+}
+
+.user-pic2{
+    background-image: url('../image/andychen.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+}
+
+.read{
+    color:#2A8356;
+    border:1px solid #2A8356;
+    border-radius:2px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.reply{
+    background-color: #2A8356;
+    border-radius:2px;
+    color:#fff;
+    border:1px solid #2A8356;
+    cursor: pointer;
+}
+
+.reply-block{
+    height: 320px;
+}
+
+.card-footer{
+    background-color: transparent;
+    border-top: 0px;
+}
+
+.reply-text{
+    color: #121212;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.btn-secondary:not(:disabled):not(.disabled):active, .btn-secondary:not(:disabled):not(.disabled).active, .show > .btn-secondary.dropdown-toggle{
+    color: #121212 !important;
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+
+.card-body{
+    padding:0px;
+}
+
+.card-header{
+    background-color: #EDF4EE;
+    border:0px;
+}
+
+textarea{
+    border:0px;
+    padding-left:22px;
+    padding-top: 16px;
+}
+
+}
